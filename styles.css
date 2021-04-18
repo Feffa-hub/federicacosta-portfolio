@@ -234,6 +234,7 @@ li a {
   height: 100vh;
   display: flex;
   vertical-align: middle;
+  text-align: center;
 }
 .contact-page h1 {
   font-weight: 800;
@@ -243,14 +244,6 @@ li a {
 
 .contact-page p {
   font-weight: 600;
-}
-
-.contact-page .contact-page-secondBlock {
-  border-left: 3px solid black;
-}
-
-.contact-page-secondBlock {
-  text-align: right;
 }
 
 .contact-page-secondBlock .personal-email {
