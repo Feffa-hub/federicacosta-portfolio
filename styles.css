@@ -1,0 +1,336 @@
+/* Generals */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.footer {
+  height: 100px;
+  background-color: white;
+  color: black;
+}
+
+.logo {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  background-color: black;
+  margin-bottom: 20px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  width: 500px;
+  justify-content: space-around;
+  padding: 15px 15px 0 0;
+}
+
+li {
+  text-decoration: none;
+  font-size: 25px;
+  /*width: 200px; */
+}
+
+p {
+  font-size: 30px;
+  font-weight: 300px;
+}
+
+.hero-area {
+  background-color: white;
+  color: black;
+  height: 100vh;
+  display: flex;
+}
+.container {
+  padding: 0;
+  margin: auto;
+}
+
+.hero-text {
+  text-align: right;
+  margin-left: 70px;
+  margin: 0;
+}
+
+.btn-about-home {
+  margin-top: 20px;
+  padding: 15px 30px;
+  background-color: teal;
+  color: white;
+  border: none;
+  font-weight: 500;
+  transition: ease-in-out 200ms;
+}
+
+.btn-about-home:hover {
+  color: black;
+  background-color: rgba(0, 128, 128, 0.02);
+  border: 2px solid black;
+  cursor: crosshair;
+}
+
+b {
+  font-size: 20px;
+  padding-top: 30px;
+}
+
+.hero-text h1 {
+  font-size: 100px;
+  font-weight: 800;
+}
+
+.name h1 {
+  color: teal;
+}
+.main-menu {
+  color: whitesmoke;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+.main-menu:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: whitesmoke;
+  color: whitesmoke;
+  text-decoration: none;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.main-menu:hover:after {
+  width: 100%;
+  left: 0;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+li a {
+  color: whitesmoke !important;
+}
+
+/* Footer section + button top */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  padding: 15px;
+  background-color: black;
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 800px;
+}
+
+.socials {
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0.3em;
+  padding: 10px;
+}
+
+.socials .facebook {
+  color: black;
+}
+
+.socials .instagram {
+  color: black;
+}
+
+.socials .linkedin {
+  color: black;
+}
+
+.credits {
+  padding: 30px;
+  text-align: center;
+  font-size: 10px;
+  color: rgb(110, 110, 110);
+}
+
+/* Projects section menu */
+.project-home {
+  background-image: linear-gradient(to top, rgba(0, 128, 128, 0.24), white);
+  color: black;
+  height: 100vh;
+  display: flex;
+}
+/* Divider shape */
+.custom-shape-divider-bottom-1617044371 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1617044371 svg {
+  position: relative;
+  display: block;
+  width: calc(103% + 1.3px);
+  height: 81px;
+}
+
+.custom-shape-divider-bottom-1617044371 .shape-fill {
+  fill: #ffffff;
+}
+
+.divider {
+  padding-top: 20px;
+}
+.p-block {
+  margin: 50px;
+}
+
+.weather-app-react {
+  box-shadow: 0 0 20px #333;
+  border-radius: 3%;
+  margin-bottom: 50px;
+}
+
+.weather-app-react-desc p {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: rgba(70, 70, 70, 0.904);
+  margin-top: 20px;
+}
+
+.btn-project-weather {
+  margin-top: 20px;
+  padding: 15px 30px;
+  background-color: teal;
+  color: white;
+  border: none;
+  font-weight: 500;
+  transition: ease-in-out 200ms;
+}
+.btn-project-weather:hover {
+  color: black;
+  background-color: rgba(0, 128, 128, 0.02);
+  border: 2px solid black;
+  cursor: crosshair;
+}
+
+/* Contact Page */
+
+.contact-page {
+  height: 100vh;
+  display: flex;
+  vertical-align: middle;
+}
+.contact-page h1 {
+  font-weight: 800;
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+
+.contact-page p {
+  font-weight: 600;
+}
+
+.contact-page .contact-page-secondBlock {
+  border-left: 3px solid black;
+}
+
+.contact-page-secondBlock {
+  text-align: right;
+}
+
+.contact-page-secondBlock .personal-email {
+  color: teal;
+  text-transform: none;
+}
+.socials-name {
+  color: black;
+}
+
+/* About page */
+
+.about-page-intro h1 {
+  font-weight: 800;
+  font-size: 100px;
+}
+
+.about-page-intro {
+  font-weight: 600;
+}
+
+.arrow-go-projects a {
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+}
+
+.arrow-go-projects a:hover {
+  color: teal;
+}
+
+.arrow-go-projects {
+  text-align: right;
+  margin: 20px;
+  font-weight: 700;
+}
+
+.box-info {
+  background-color: white;
+  width: 100%;
+  padding: 5px;
+  box-shadow: 0 0 20px rgba(51, 51, 51, 0.383);
+  text-align: center;
+  margin: 10px 0;
+}
+
+.box-info img {
+  width: 60px;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.about-page-description {
+  background-color: rgba(0, 128, 128, 0.651);
+}
+
+.about-page-description p {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.8;
+  margin: 20px;
+}
+
+/* Projects page */
+
+.projects-page {
+  height: 100vh;
+}
+
+.arrow-go-about a {
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+}
+
+.arrow-go-about a:hover {
+  color: teal;
+}
+
+.arrow-go-about {
+  margin: 20px;
+  font-weight: 700;
+}
