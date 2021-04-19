@@ -234,7 +234,7 @@ li a {
   height: 100vh;
   display: flex;
   vertical-align: middle;
-  text-align: center;
+  text-align: left;
 }
 .contact-page h1 {
   font-weight: 800;
