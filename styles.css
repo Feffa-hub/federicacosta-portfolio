@@ -345,6 +345,14 @@ li a {
   margin-bottom: 30px;
 }
 
+.icons-programming {
+  margin: 20px 0 20px 0;
+}
+
+.icon-prog {
+  justify-content: space-around;
+}
+
 .arrow-go-about a {
   font-size: 25px;
   text-decoration: none;
