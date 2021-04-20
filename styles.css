@@ -199,13 +199,13 @@ li a {
   padding-top: 20px;
 }
 .p-block {
-  margin: 50px;
+  padding: 50px 50px 25px 50px;
+  background-color: #ffbf0017;
 }
 
 .weather-app-react {
   box-shadow: 0 0 20px #333;
   border-radius: 3%;
-  margin-bottom: 50px;
 }
 
 .weather-app-react-desc p {
@@ -313,12 +313,11 @@ li a {
 
 /* Projects page */
 
-.projects-page {
-  height: 100vh;
+.projects-page-intro {
   font-weight: 600;
 }
 
-.projects-page h1 {
+.projects-page-intro h1 {
   font-weight: 800;
   font-size: 100px;
 }
