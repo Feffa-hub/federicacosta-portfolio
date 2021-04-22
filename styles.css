@@ -213,6 +213,12 @@ li a {
   border-radius: 3%;
 }
 
+@media screen and (min-width: 1281px) {
+  .weather-app-react {
+    width: 350px;
+  }
+}
+
 .weather-app-react-desc p {
   font-size: 20px;
   line-height: 1.5;
