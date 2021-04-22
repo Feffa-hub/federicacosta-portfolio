@@ -19,3 +19,15 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+// Hamburger menu
+
+
+const menuList = document.getElementById('menu-list'); 
+
+function toggleButton (){
+  menuList.classList.toggle('show');
+}
+
+const hamburgerButton = document.getElementById('hamburger');
+hamburgerButton.addEventListener('click', toggleButton); 

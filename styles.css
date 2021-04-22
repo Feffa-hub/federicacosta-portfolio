@@ -30,10 +30,39 @@ ul {
   padding: 15px 15px 0 0;
 }
 
+ul.show {
+  display: grid;
+  text-align: right;
+  position: relative;
+  top: 20px;
+  left: 110px;
+}
+
 li {
   text-decoration: none;
   font-size: 30px;
   font-weight: 700;
+}
+
+.hamburger {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .hamburger {
+    display: block;
+    border: 0;
+    background-color: transparent;
+    font-size: 30px;
+  }
+
+  ul {
+    display: none;
+  }
+
+  nav {
+    align-items: flex-start;
+  }
 }
 
 p {
@@ -56,6 +85,12 @@ p {
   text-align: right;
   margin-left: 70px;
   margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-text {
+    text-align: left;
+  }
 }
 
 .btn-about-home {
@@ -93,30 +128,6 @@ b {
   text-decoration: none;
   display: inline-block;
   position: relative;
-}
-.main-menu:after {
-  background: none repeat scroll 0 0 transparent;
-  bottom: 0;
-  content: "";
-  display: block;
-  height: 2px;
-  left: 50%;
-  position: absolute;
-  background: black;
-  color: black;
-  text-decoration: none;
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  width: 0;
-}
-.main-menu:hover:after {
-  width: 100%;
-  left: 0;
-  color: black;
-  text-decoration: none;
-}
-
-li a {
-  color: black !important;
 }
 
 /* Footer section + button top */
