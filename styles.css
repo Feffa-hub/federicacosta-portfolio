@@ -34,7 +34,7 @@ ul.show {
   display: grid;
   text-align: right;
   position: relative;
-  top: 30px;
+  top: 50px;
   left: 110px;
   line-height: 2;
 }
@@ -56,6 +56,7 @@ li {
     background-color: transparent;
     font-size: 30px;
     padding: 20px;
+    outline: 0;
   }
 
   ul {
