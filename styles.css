@@ -250,6 +250,7 @@ li a {
   display: flex;
   vertical-align: middle;
   text-align: left;
+  background-image: linear-gradient(to top, rgba(0, 128, 128, 0.24), white);
 }
 .contact-page h1 {
   font-weight: 800;
