@@ -98,6 +98,13 @@ p {
   margin: 0;
 }
 
+.hero-short-text {
+  font-weight: 600;
+  font-size: 25px;
+  margin-top: 25px;
+  color: #262727;
+}
+
 @media only screen and (max-width: 600px) {
   .hero-text {
     text-align: left;
@@ -129,6 +136,7 @@ b {
 .hero-text h1 {
   font-size: 100px;
   font-weight: 800;
+  line-height: 1;
 }
 
 .name h1 {
@@ -201,6 +209,11 @@ b {
   height: 100vh;
   display: flex;
 }
+
+.project-home h2 {
+  font-size: 50px;
+  font-weight: 700;
+}
 /* Divider shape */
 .custom-shape-divider-bottom-1617044371 {
   position: absolute;
@@ -242,11 +255,11 @@ b {
 }
 
 .weather-app-react-desc p {
-  font-size: 20px;
+  font-size: 22px;
   line-height: 1.5;
   font-weight: 400;
-  color: rgba(70, 70, 70, 0.904);
   margin-top: 20px;
+  color: #262727;
 }
 
 .btn-project-weather {
