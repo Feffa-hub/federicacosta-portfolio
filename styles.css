@@ -8,6 +8,19 @@ p {
   font-weight: 300px;
 }
 
+.app-desc h2 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.app-desc p {
+  font-size: 22px;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-top: 20px;
+  color: #262727;
+}
+
 /* Footer section + button top */
 #myBtn {
   display: none;
@@ -211,11 +224,6 @@ a.main-menu:hover {
   display: flex;
 }
 
-.project-home h2 {
-  font-size: 50px;
-  font-weight: 700;
-}
-
 .p-block {
   padding: 50px 50px 25px 50px;
 }
@@ -229,14 +237,6 @@ a.main-menu:hover {
   .weather-app-react {
     width: 350px;
   }
-}
-
-.weather-app-react-desc p {
-  font-size: 22px;
-  line-height: 1.5;
-  font-weight: 400;
-  margin-top: 20px;
-  color: #262727;
 }
 
 .btn-project-weather {
@@ -359,6 +359,10 @@ a.main-menu:hover {
   margin-bottom: 30px;
   box-shadow: 0 0 20px #333;
   border-radius: 3%;
+}
+
+.projects-page-one {
+  margin-top: 50px;
 }
 
 .projects-page-two {
