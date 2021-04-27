@@ -21,6 +21,21 @@ p {
   color: #262727;
 }
 
+@media screen and (max-width: 600px) {
+  .about-page-intro h1 {
+    font-size: 80px;
+    margin-top: 150px;
+  }
+  .projects-page-intro h1 {
+    font-size: 80px;
+    margin-top: 150px;
+  }
+
+  .contact-page-secondBlock {
+    margin-top: 150px;
+  }
+}
+
 /* Footer section + button top */
 #myBtn {
   display: none;
@@ -111,8 +126,8 @@ ul.show {
   text-align: right;
   position: relative;
   top: 50px;
-  left: 110px;
-  line-height: 2;
+  left: 130px;
+  line-height: 1.8;
 }
 
 li {
