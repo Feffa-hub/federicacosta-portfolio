@@ -81,11 +81,13 @@ p {
 }
 
 /* Header */
-
-.logo {
-  display: flex;
-  margin-top: 10px;
-  margin-left: 15px;
+@media only screen and (min-width: 1000px) {
+  .logo {
+    display: block;
+    position: relative;
+    top: 10px;
+    left: 60px;
+  }
 }
 
 nav {
