@@ -421,11 +421,12 @@ a.main-menu:hover {
 /* Contact Page */
 
 .contact-page {
-  height: 100vh;
   display: flex;
   vertical-align: middle;
   text-align: left;
+  margin-bottom: 20px;
 }
+
 .contact-page h1 {
   font-weight: 800;
   font-size: 80px;
