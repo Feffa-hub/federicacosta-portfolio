@@ -31,7 +31,8 @@ p {
     margin-top: 150px;
   }
 
-  .contact-page-secondBlock {
+  .contact-page-intro h1 {
+    font-size: 80px;
     margin-top: 150px;
   }
 }
@@ -425,12 +426,18 @@ a.main-menu:hover {
   vertical-align: middle;
   text-align: left;
   margin-bottom: 20px;
+  height: 100vh;
+  background-image: linear-gradient(to top, rgba(0, 128, 128, 0.24), white);
 }
 
-.contact-page h1 {
+.contact-page-intro h1 {
   font-weight: 800;
-  font-size: 80px;
-  margin-bottom: 20px;
+  font-size: 100px;
+}
+
+.contact-page h2 {
+  font-size: 50px;
+  font-weight: 700;
 }
 
 .contact-page p {
