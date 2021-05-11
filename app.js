@@ -31,3 +31,40 @@ function toggleButton (){
 
 const hamburgerButton = document.getElementById('hamburger');
 hamburgerButton.addEventListener('click', toggleButton); 
+
+
+// Event Listeners Index
+
+function aboutMe() {
+  window.location.href="about.html";
+}
+
+let buttonAbout = document.getElementById('btn-about');
+buttonAbout.addEventListener('click', aboutMe);
+
+
+function work() {
+  window.location.href="work.html";
+}
+
+let buttonWork = document.getElementById('btn-work');
+buttonWork.addEventListener('click', work);
+
+
+// Event Listeners Work
+
+function liveWeatherReact() {
+ window.open("https://federicacosta-weatherapp-react.netlify.app/", "_blank"); 
+}
+
+let btnWeatherReact = document.getElementById('btn-weather-react-live');
+btnWeatherReact.addEventListener('click', liveWeatherReact);
+
+
+function liveWeatherVanilla() {
+ window.open("https://federicacosta-weatherapp-vanilla.netlify.app/", "_blank"); 
+}
+
+let btnWeatherVanilla = document.getElementById('btn-weather-vanilla-live');
+btnWeatherVanilla.addEventListener('click', liveWeatherVanilla);
+
